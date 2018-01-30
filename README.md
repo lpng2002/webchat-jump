@@ -16,7 +16,7 @@ python练手opencv线性拟合打造跳一跳脚本
 ![Image text](https://raw.github.com/lpng2002/webchat-jump/master/tyt/imga.png)
 ![Image text](https://raw.github.com/lpng2002/webchat-jump/master/tyt/imgb.png)
 
-4、抓取跳跃前后的图片，截取跳跃后小人正下方固定区域图片，匹配跳跃前的图片，得到小人实际落点和实际跳跃距离 ，计算出实际跳跃距离对应的按压系数 。
+4、抓取跳跃前后的图片，截取跳跃后小人正下方固定区域图片（下图黄色矩形区域为匹配到的结果），匹配跳跃前的图片，得到小人实际落点和实际跳跃距离（实际落点为下图黄色矩形上方一点点） ，计算出实际跳跃距离对应的按压系数 。
 
 ![Image text](https://raw.github.com/lpng2002/webchat-jump/master/tyt/img88e.png)
 ![Image text](https://raw.github.com/lpng2002/webchat-jump/master/tyt/img89e.png)
@@ -57,4 +57,6 @@ z1 = polyfit(x, y, 2)
 
 print(z1)
 
-6、优化脚本函数，确认最终的脚本，开始起跳吧。
+![Image text](https://raw.github.com/lpng2002/webchat-jump/master/tyt/F1.png)
+
+6、优化脚本函数，确认最终的脚本，开始起跳吧。初步估计肯定能上千，只是我不敢跳那么高，刷分不重要，中途都手动断掉了，制作此脚本只为练手和学习，加深对python中各种库的使用熟练程度，欢迎多多交流！
